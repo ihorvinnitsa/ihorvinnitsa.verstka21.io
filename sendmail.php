@@ -32,13 +32,6 @@
 
 	$mail->Body = $body;
 
-	//Отправляем
-	if (!$mail->send()) {
-		$message = 'Ошибка';
-	} else {
-		$message = 'Данные отправлены!';
-	}
-
 	$response = ['message' => $message];
 
 	header('Content-type: application/json');
