@@ -756,10 +756,13 @@ line-height: 125%;
     .pronas_h:hover .pronas_lefter{
         position: relative;
         z-index: 3;
-      
+        top: -145px;
+        font-size: 15px;
+
         transform: translateX(1120px);
         transition: all 3s;
         background: rgb(255, 255, 255);
+        padding: 10px 10px 10px 10px;
         opacity: 0.8;
     }
 
