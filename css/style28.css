@@ -781,11 +781,98 @@ line-height: 125%;
 
 
 
+   .tabs2__content .tabs_list_content {
+        margin-top: 25px;
+        width: 360px;
+        height: 221px;
+    }
+
+
+    .tabs_list .tabs_content{
+        object-fit:cover ;
+        width: 360px;
+        height: 184px;
+    }
+
+
+
+    .tabs_list .tabs_img21{
+        background: url('../img/bed1_small.png');
+        }
+    .tabs_list .tabs_img22{
+        background: url('../img/bed2_small.png');
+    }
+    .tabs_list .tabs_img23{
+        background: url('../img/bed3_small.png');
+    }
+    .tabs_list .tabs_img24{
+        background: url('../img/bed4_small.png');
+    }
+    .tabs_list .tabs_img25{
+        background: url('../img/bed5_small.png');
+    }
+    .tabs_list .tabs_img26{
+        background: url('../img/bed6_small.png');
+    }
+
+
+
+
+
+
+    .tabs_list .text_10{
+
+ 
+        width: 360px;
+        height: 37px;
+
+    }
+
+
+
+    .tabs_list .text_1,
+    .tabs_list .text_2,
+    .tabs_list .text_2_red{
+        font-size: 12px;
+
+    }
+
+    .tabs_list .text_3 {
+
+
+        font-size: 10px;
+    }
+
+    .tabs_list .text_w {
+        position: relative;
+        z-index: 3;
+        top: -128px;
+
+    }
+
+
+    .tabs_list .first_piknew {
+        position: relative;
+        z-index: 3;
+        top: -30px;
+        left: -120px;
+    }
+
+    .tabs_list .first_pikhit {
+        position: relative;
+        z-index: 3;
+        top: -30px;
+        left: -108px;
+    }
+
+    .tabs_list .second_piksale{
+        position: relative;
+        z-index: 3;
+        top: -20px;
+        left: -138px;
+    }
+
  }
-
-
-
-
 
 
 
