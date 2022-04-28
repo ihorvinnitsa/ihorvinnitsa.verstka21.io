@@ -523,8 +523,6 @@ textarea {
 
 
 
-
-
 html {
     box-sizing: border-box;
 }
@@ -643,9 +641,6 @@ line-height: 125%;
 
 
 @media (min-width: 1710px) and (max-width: 1848px) {
-    .tabs_content{
-        color: #29B0D9;
-    }
 
 
     .header__logo .header_text {
@@ -743,21 +738,20 @@ line-height: 125%;
 
 
  @media (max-width: 767px) {
-    .tabs2__content .tabs_list {
-        justify-content: center;
-    }
 
 
-    .pronas_h:hover .pronas_l{
-
-    }
 
 
+
+
+/* 
+    Про нас Start
+*/ 
     .pronas_h:hover .pronas_lefter{
         position: relative;
         z-index: 3;
-        top: -150px;
-        font-size: 15px;
+        top: 100px;
+        font-size: 12px;
 
         transform: translateX(1120px);
         transition: all 3s;
@@ -767,19 +761,40 @@ line-height: 125%;
     }
 
 
-    .tabs2__nav {
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        background-color: #ffffff;
-        margin: 0;
-    
-        width: 100vh;
-        padding: 0px 10px 10px 10px;
+    .pronas_h .tabs_content10 {
+        background: url('../img/pronas_small.png');
+        width: 600px;
+        height: 429px;
+    }
+
+
+
+
+    .pronas_h .f_logo-pik3 {
+
+
+    }
+
+
+/* 
+    End
+*/ 
+
+
+
+
+/* 
+    Категорії товарів Start
+*/
+    .tabs2__content .tabs_list {
         justify-content: center;
+    }
+
+   .tabs2 .tabs2__nav {
+        padding: 0px 10px 10px 10px;
       }
 
-
+ 
 
    .tabs2__content .tabs_list_content {
         margin-top: 25px;
@@ -871,6 +886,38 @@ line-height: 125%;
         top: -20px;
         left: -138px;
     }
+/* 
+    End
+*/
+
+
+
+/* 
+header_mySwiper3 header_mySwiper4
+*/
+
+    .header_mySwiper3 span,
+    .header_mySwiper4 span{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+
+    .header_mySwiper3 .indent_2050 {
+        width: 15px;
+        height: 40px;
+    
+        top: 10px;
+        left: 11px; 
+    }
+/* 
+    End
+*/
+
+
+
 
  }
 
@@ -1632,15 +1679,24 @@ a:hover {
 
   }
 
-.pronas_right {
-    max-width: 1407px;
-    max-height: 675px;
-    align-items: center;
 
+
+  .tabs_content10{
+    width: 1407px;
+    height: 675px;
+    align-items: center;
     object-fit: cover;
 
-  
-  }
+    position: relative;
+    z-index: 1;
+}
+
+
+
+  .pronas_right {
+    background: url('../img/pronas.png');
+}
+
 
 
 .pronas_l {
