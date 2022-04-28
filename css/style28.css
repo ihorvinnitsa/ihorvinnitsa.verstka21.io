@@ -763,6 +763,21 @@ line-height: 125%;
         opacity: 0.8;
     }
 
+
+    .tabs2__nav {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        background-color: #ffffff;
+        margin: 0;
+    
+        width: 100vh;
+        padding: 0px 10px 10px 10px;
+        justify-content: center;
+      }
+
+
+
  }
 
 
